@@ -17,6 +17,10 @@
 >1. Improve the overall usability.
     Nuget packages added
 >2. Maintainability of the codebase.
+    a) Adjusted substitute method to point to datalayer. Removed direct access through controller
+    b) Cleaned up controller and business logic moved out
+    c) Data retrieval done in data layer
 >3. Performance.
+    a) Caching implemented with policy on change file
 
 Refactored code as much can be done in short time frame, still there is some places where code can be refactored. For time being, left like some places loops can be changed into LINQ statements.
